@@ -11,3 +11,32 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.search{
+  margin-bottom: 25px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px 24px;
+}
+
+.photo-card__img {
+  width: 300px;
+}
